@@ -6,12 +6,16 @@
 - clean: ['~']
 
 - link:
-    ~/.zshrc: zshrc
-    ~/.gitconfig: gitconfig
+    ~/.zshrc:
+    ~/.gitconfig:
 
 #- create:
 #    - ~/Documents/Study
 #    - ~/Documents/Personal
 
 - shell:
+    - 
+      command: ./setup_homebrew.zsh
+      stdout: true
+      stderr: true
 #  - [git submodule update --init --recursive, Installing submodules]
