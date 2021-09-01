@@ -5,15 +5,14 @@
 
 - clean: ['~']
 
-#- link:
-#    ~/.dotfiles
-#    ~/.tmux.conf: tmux.conf
-#    ~/.vim: vim
-#    ~/.vimrc: vimrc
+- link:
+#    ~/.vim:
+    ~/.zshrc:
+    ~/.gitconfig:
 
-- create:
-    - ~/Documents/Study
-    - ~/Documents/Personal
+#- create:
+#    - ~/Documents/Study
+#    - ~/Documents/Personal
 
 #- shell:
 #  - [git submodule update --init --recursive, Installing submodules]
