@@ -6,13 +6,12 @@
 - clean: ['~']
 
 - link:
-#    ~/.vim:
-    ~/.zshrc:
-    ~/.gitconfig:
+    ~/.zshrc: zshrc
+    ~/.gitconfig: gitconfig
 
 #- create:
 #    - ~/Documents/Study
 #    - ~/Documents/Personal
 
-#- shell:
+- shell:
 #  - [git submodule update --init --recursive, Installing submodules]
