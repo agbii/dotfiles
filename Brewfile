@@ -25,3 +25,5 @@ cask "google-drive"
 cask "iterm2"
 # Open-source code editor
 cask "visual-studio-code"
+mas "KakaoTalk", id: 869223134
+mas "Snappy", id: 512617038
