@@ -26,6 +26,8 @@ cask "google-chrome"
 cask "google-drive"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Minimal installer for conda
+cask "miniconda"
 # Open-source code editor
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
