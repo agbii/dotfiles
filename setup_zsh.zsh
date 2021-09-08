@@ -17,3 +17,13 @@ else
   echo "Enter user password to change login shell"
   chsh -s '/opt/homebrew/bin/zsh'
 fi
+
+if sh --version | grep -q zsh; then
+  echo 'private/var/select/sh already linked to /bin/zsh'
+else
+  echo "Enter superuser (sudo) password to symlink sh to zsh"
+  # Linked to the original zsh because brew zsh can't be used
+  sudo ln -sfv /bin/zsh /private/var/select/sh 
+  # Preferred is
+  # sudo ln -sfv /opt/homebrew/bin/zsh /private/var/select/sh
+fi
