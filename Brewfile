@@ -16,6 +16,8 @@ brew "less"
 brew "mas"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
+# UNIX shell (command interpreter)
+brew "zsh"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
 # Bash scripts that integrate bat with various command-line tools
