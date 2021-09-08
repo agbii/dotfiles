@@ -7,6 +7,7 @@ echo "Hello from .zshrc"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # Change ZSH Options
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
 # Create Aliases

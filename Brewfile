@@ -16,6 +16,8 @@ brew "less"
 brew "mas"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
 # Application launcher and productivity software
@@ -32,9 +34,14 @@ cask "google-drive"
 cask "iterm2"
 # Minimal installer for conda
 cask "miniconda"
+# Team communication and collaboration software
+cask "slack"
+# Management tool for Unity
+cask "unity-hub"
 # Open-source code editor
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "Cloud Outliner Pro", id: 1024917449
 mas "KakaoTalk", id: 869223134
 mas "Snappy", id: 512617038
