@@ -16,12 +16,13 @@ alias ls='exa -laFh --git'
 alias exa='exa -laFh --git'
 alias man=batman
 alias bbd='brew bundle dump --force --describe'
+alias trail='<<<${(F)path}'
 
 # Customize Prompt(s)
 PROMPT='
-%1~ %L %# '
+%F{069}%m%f %F{140}%1~%f %F{037}%L%f %# '
 
-RPROMPT='%*'
+RPROMPT='%F{180}%D %*%f'
 
 
 # Add Locations to $PATH Variable
@@ -39,4 +40,3 @@ function mkcd() {
 
 
 # ...and others
-
