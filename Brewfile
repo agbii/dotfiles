@@ -2,6 +2,7 @@ tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "homebrew/services"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'
@@ -10,12 +11,18 @@ brew "exa"
 brew "git"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Interactive environments for writing and running code
+brew "jupyterlab"
 # Pager program similar to more
 brew "less"
+# Drop-in replacement for MySQL
+brew "mariadb"
 # Mac App Store command-line interface
 brew "mas"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
+# Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
+brew "prettier"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Fish shell like syntax highlighting for zsh
@@ -24,6 +31,8 @@ brew "zsh-syntax-highlighting"
 brew "eth-p/software/bat-extras"
 # Application launcher and productivity software
 cask "alfred"
+# Universal database tool and SQL client
+cask "dbeaver-community"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # Git client focusing on productivity
