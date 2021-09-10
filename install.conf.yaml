@@ -24,4 +24,6 @@
     - command: ./setup_zsh.zsh
       stdout: true
       stderr: true
-#  - [git submodule update --init --recursive, Installing submodules]
+    - command: ./setup_node.zsh
+      stdout: true
+      stderr: true
