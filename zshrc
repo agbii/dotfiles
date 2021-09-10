@@ -3,7 +3,7 @@ echo "Hello from .zshrc"
 # Set Variables
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 export NULLCMD=bat
-export $N_PREFIX="$HOME/.n"
+export N_PREFIX="$HOME/.n"
 export PREFIX="$N_PREFIX"
 
 
@@ -27,11 +27,15 @@ PROMPT='
 RPROMPT='%F{180}%D %*%f'
 
 
-# Add Locations to $PATH Variable
-export PATH="$N_PREFIX:$PATH"
-export PATH=/opt/homebrew/bin:$PATH
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+# Add Locations to $path array
+typeset -U path
 
+path=(
+  "$N_PREFIX/bin"
+  "/opt/homebrew/bin"
+  $path
+  "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+)
 
 # Write Handy Functions
 function mkcd() {
