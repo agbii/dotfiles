@@ -10,3 +10,10 @@ defaults write com.apple.finder NewWindowTarget -string 'PfLo'
 defaults write com.apple.finder NewWindowTargetPath -string "file://$HOME/.dotfiles"
 
 
+# System Preferences > Dock
+defaults write com.apple.dock magnification -bool true
+defaults write com.apple.dock tilesize -float 25
+defaults write com.apple.dock largesize -float 35
+defaults write com.apple.dock autohide -bool false
+killall Dock
+
