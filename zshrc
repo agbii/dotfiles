@@ -43,6 +43,8 @@ alias lh='fc -RI; echo "loaded and showing..."; history;'
 #%F{069}%m%f %F{140}%1~%f %F{037}%L%f %# '
 
 #RPROMPT='%F{180}%D %*%f'
+source "$DOTFILES/spaceship_shlvl.zsh"
+
 SPACESHIP_CHAR_SYMBOL="❯ "
 SPACESHIP_TIME_SHOW=true
 SPACESHIP_EXEC_TIME_ELAPSED=0
@@ -58,7 +60,8 @@ SPACESHIP_PROMPT_ORDER=(
   node          # Node.js section
   exec_time     # Execution time
   line_sep      # Line break
-  # vi_mode       # Vi-mode indicator
+  shlvl         # Custom section from spaceship_shlvl.zsh
+  vi_mode       # Vi-mode indicator
   # jobs          # Background jobs indicator
   char          # Prompt character
 )
