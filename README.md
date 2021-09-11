@@ -21,7 +21,7 @@ Deactivate licenses:
 ## Restore Instructions
 
 1. `xcode-select --install` (Command Line Tools are required for Git and Homebrew)
-2. `git clone https://github.com/agbi/dotfiles ~/.dotfiles`. We'll start with `https` but switch to `ssh` after everything is installed.
+2. `git clone https://github.com/agbii/dotfiles ~/.dotfiles`. We'll start with `https` but switch to `ssh` after everything is installed.
 3. `cd ~/.dotfiles`
 4. Do one last Software Audit by editing [Brewfile](Brewfile) directly.
 5. [`./install`](install)
@@ -56,7 +56,7 @@ Deactivate licenses:
     ssh -T git@github.com
 
     # Switch from HTTPS to SSH
-    git remote set-url origin git@github.com:agbi/dotfiles.git
+    git remote set-url origin git@github.com:agbii/dotfiles.git
     ```
 
 
