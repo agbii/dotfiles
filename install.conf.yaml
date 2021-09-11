@@ -10,6 +10,8 @@
     ~/.zshenv:
     ~/.gitconfig:
     ~/.hyper.js:
+    ~/.nanorc:
+    ~/.vimrc:
     ~/.config/bat:
       create: true
       path: config/bat
