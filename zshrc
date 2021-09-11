@@ -32,6 +32,7 @@ alias ftrail='<<<${(F)fpath}'
 alias rm=trash
 # Load history into shell (shareHistory alternative)
 alias lh='fc -RI; echo "loaded and showing..."; history;'
+alias gs='git status'
 
 
 # Customize Prompt(s)
