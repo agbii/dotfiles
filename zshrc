@@ -26,6 +26,8 @@ alias man=batman
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
 alias rm=trash
+# Load history into shell (shareHistory alternative)
+alias lh='fc -RI; echo "loaded and showing..."; history;'
 
 
 # Customize Prompt(s)
