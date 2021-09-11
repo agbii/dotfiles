@@ -1,5 +1,10 @@
 echo 'Hello from .zshenv'
 
+export HOMEBREW_CASK_OPTS="--no-quarantine --no-binaries"
+export N_PREFIX="$HOME/.n"
+export PREFIX="$N_PREFIX"
+
+
 #Exist function
 function exists() {
   # 'command -v' is similar to 'which'
