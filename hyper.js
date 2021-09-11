@@ -15,7 +15,7 @@ module.exports = {
     fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
-    fontWeight: 'normal',
+    fontFamily: '"Fira Code", monospace',
 
     // font weight for bold characters: 'normal' or 'bold'
     fontWeightBold: 'bold',
