@@ -51,3 +51,8 @@ path=(
 function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
+
+
+# Change Key Bindings
+bindkey "^[[A" up-line-or-search
+bindkey "^[[B" down-line-or-search
