@@ -26,8 +26,6 @@ brew "mas"
 brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
-# Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
-brew "prettier"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Bash scripts that integrate bat with various command-line tools
@@ -45,6 +43,8 @@ cask "gitkraken"
 cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
+# Terminal built on web technologies
+cask "hyper"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Minimal installer for conda
