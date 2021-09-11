@@ -9,15 +9,13 @@ export PREFIX="$N_PREFIX"
 
 # Adjust History Variables & Options
 [[ -z $HISTFILE ]] && HISTFILE="$HOME/.zsh_history"
-HISTSIZE=2000
-SAVEHIST=1000
+HISTSIZE=5000
+SAVEHIST=4000
 
 setopt histNoStore
 setopt extendedHistory
+setopt histIgnoreAllDups
 
-# History Duplication Options
-setopt histFindNoDups
-setopt histSaveNoDups
 
 
 # Create Aliases
