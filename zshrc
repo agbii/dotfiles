@@ -61,6 +61,11 @@ function mkcd() {
 }
 
 
+$ Use ZSH Plugins
+source <(antibody init)
+antibody bundle < "$DOTFILES/antibody_plugins"
+
+
 # Change Key Bindings
 bindkey "^[[A" up-line-or-search
 bindkey "^[[B" down-line-or-search
