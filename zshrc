@@ -7,8 +7,8 @@ export N_PREFIX="$HOME/.n"
 export PREFIX="$N_PREFIX"
 
 
-# Source installed zsh configurations
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# History Options
+setopt histNoStore
 
 
 # Create Aliases
