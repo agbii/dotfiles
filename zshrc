@@ -19,6 +19,12 @@ unsetopt appendHistory
 setopt incAppendHistoryTime
 
 
+# Line Editor Options (Completion, Menu, Directory, etc.)
+# autoMenu & autoList are on by default
+setopt autoCd
+setopt globDots
+
+
 # Create Aliases
 alias ls='exa -laFh --git'
 alias exa='exa -laFh --git'
