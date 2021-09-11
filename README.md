@@ -2,7 +2,8 @@
 dotfiles.agbii
 
 Configuring dotfiles
-from http://github.com/eieioxyz/dotfiles_macos http://dotfiles.eieio.xyz/
+from [eieio](http://github.com/eieioxyz/dotfiles_macos)
+http://dotfiles.eieio.xyz/
 
 
 
