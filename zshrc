@@ -15,7 +15,8 @@ SAVEHIST=4000
 setopt histNoStore
 setopt extendedHistory
 setopt histIgnoreAllDups
-
+unsetopt appendHistory
+setopt incAppendHistoryTime
 
 
 # Create Aliases
