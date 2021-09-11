@@ -4,6 +4,8 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "homebrew/services"
+# Shell plugin manager
+brew "antibody"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Modern replacement for 'ls'
@@ -58,3 +60,4 @@ cask "zoom"
 mas "Cloud Outliner Pro", id: 1024917449
 mas "KakaoTalk", id: 869223134
 mas "Snappy", id: 512617038
+mas "Xcode", id: 497799835

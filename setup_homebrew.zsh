@@ -10,3 +10,7 @@ else
 fi
 
 brew bundle --verbose
+
+echo "Enter superuser (sudo) password to accept Xcode license"
+sudo xcodebuild -license accept
+sudo xcodebuild -runFirstLaunch
