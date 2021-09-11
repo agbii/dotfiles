@@ -9,6 +9,9 @@ export PREFIX="$N_PREFIX"
 
 # History Options
 setopt histNoStore
+setopt extendedHistory
+setopt histFindNoDups
+setopt histSaveNoDups
 
 
 # Create Aliases
