@@ -68,8 +68,8 @@ antibody bundle < "$DOTFILES/antibody_plugins"
 
 
 # Change Key Bindings
-bindkey "^[[A" up-line-or-search
-bindkey "^[[B" down-line-or-search
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
 
 
 # Add "zstyles" for Completions & Other Things
