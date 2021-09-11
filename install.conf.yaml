@@ -12,6 +12,7 @@
     ~/.hyper.js:
     ~/.nanorc:
     ~/.vimrc:
+    ~/.mackup.cfg:
     ~/.config/bat:
       create: true
       path: config/bat

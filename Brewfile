@@ -18,6 +18,8 @@ brew "httpie"
 brew "jupyterlab"
 # Pager program similar to more
 brew "less"
+# Keep your Mac's application settings in sync
+brew "mackup"
 # Drop-in replacement for MySQL
 brew "mariadb"
 # Mac App Store command-line interface
