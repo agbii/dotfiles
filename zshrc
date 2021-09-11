@@ -39,10 +39,10 @@ alias lh='fc -RI; echo "loaded and showing..."; history;'
 
 
 # Customize Prompt(s)
-PROMPT='
-%F{069}%m%f %F{140}%1~%f %F{037}%L%f %# '
+#PROMPT='
+#%F{069}%m%f %F{140}%1~%f %F{037}%L%f %# '
 
-RPROMPT='%F{180}%D %*%f'
+#RPROMPT='%F{180}%D %*%f'
 
 
 # Add Locations to $path array
@@ -61,7 +61,7 @@ function mkcd() {
 }
 
 
-$ Use ZSH Plugins
+# Use ZSH Plugins
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 source <(antibody init)
 antibody bundle < "$DOTFILES/antibody_plugins"
