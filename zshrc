@@ -7,9 +7,15 @@ export N_PREFIX="$HOME/.n"
 export PREFIX="$N_PREFIX"
 
 
-# History Options
+# Adjust History Variables & Options
+[[ -z $HISTFILE ]] && HISTFILE="$HOME/.zsh_history"
+HISTSIZE=2000
+SAVEHIST=1000
+
 setopt histNoStore
 setopt extendedHistory
+
+# History Duplication Options
 setopt histFindNoDups
 setopt histSaveNoDups
 
