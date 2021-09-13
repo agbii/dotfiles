@@ -36,6 +36,8 @@ brew "eth-p/software/bat-extras"
 cask "alfred"
 # Universal database tool and SQL client
 cask "dbeaver-community"
+# Developer platform
+cask "dotnet-sdk"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 cask "font-fira-code"
@@ -51,6 +53,8 @@ cask "hyper"
 cask "iterm2"
 # Minimal installer for conda
 cask "miniconda"
+# App to write, plan, collaborate, and get organized
+cask "notion"
 # Team communication and collaboration software
 cask "slack"
 # Management tool for Unity
