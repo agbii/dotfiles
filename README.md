@@ -57,7 +57,7 @@ Deactivate licenses:
 
     # Switch from HTTPS to SSH
     git remote set-url origin git@github.com:agbii/dotfiles.git
-    ```
+```
 
 
 ### Manual Steps

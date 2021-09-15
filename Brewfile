@@ -2,6 +2,7 @@ tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 # Shell plugin manager
@@ -53,6 +54,8 @@ cask "hyper"
 cask "iterm2"
 # Minimal installer for conda
 cask "miniconda"
+# Open source implementation of Microsoft's .NET Framework
+cask "mono-mdk-for-visual-studio"
 # App to write, plan, collaborate, and get organized
 cask "notion"
 # Team communication and collaboration software
@@ -65,5 +68,6 @@ cask "visual-studio-code"
 cask "zoom"
 mas "Cloud Outliner Pro", id: 1024917449
 mas "KakaoTalk", id: 869223134
+mas "Magnet", id: 441258766
 mas "Snappy", id: 512617038
 mas "Xcode", id: 497799835
