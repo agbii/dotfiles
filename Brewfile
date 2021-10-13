@@ -44,16 +44,12 @@ cask "dotnet-sdk"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 cask "font-fira-code"
-# Desktop client for GitHub repositories
-cask "github"
 # Git client focusing on productivity
 cask "gitkraken"
 # Web browser
 cask "google-chrome"
 # Client for the Google Drive storage service
 cask "google-drive"
-# Terminal built on web technologies
-cask "hyper"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Minimal installer for conda
