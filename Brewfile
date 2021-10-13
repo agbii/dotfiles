@@ -13,6 +13,8 @@ brew "bat"
 brew "exa"
 # Distributed revision control system
 brew "git"
+# Git extension for versioning large files
+brew "git-lfs"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
 # Interactive environments for writing and running code
@@ -42,6 +44,8 @@ cask "dotnet-sdk"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 cask "font-fira-code"
+# Desktop client for GitHub repositories
+cask "github"
 # Git client focusing on productivity
 cask "gitkraken"
 # Web browser
@@ -66,8 +70,6 @@ cask "unity-hub"
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
-mas "Cloud Outliner Pro", id: 1024917449
 mas "KakaoTalk", id: 869223134
 mas "Magnet", id: 441258766
-mas "Snappy", id: 512617038
 mas "Xcode", id: 497799835

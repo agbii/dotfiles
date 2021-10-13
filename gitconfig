@@ -3,3 +3,8 @@
 	email = 10401133+agbii@users.noreply.github.com
 [init]
 	defaultBranch = main
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
