@@ -58,7 +58,7 @@ SPACESHIP_PROMPT_ORDER=(
   exec_time     # Execution time
   line_sep      # Line break
   shlvl         # Custom section from spaceship_shlvl.zsh
-  vi_mode       # Vi-mode indicator
+  # vi_mode       # Vi-mode indicator
   # jobs          # Background jobs indicator
   char          # Prompt character
 )
@@ -105,12 +105,22 @@ function bbd() {
 
 }
 
+#Add Zinit
+ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
+[ ! -d $ZINIT_HOME ] && mkdir -p "$(dirname $ZINIT_HOME)"
+[ ! -d $ZINIT_HOME/.git ] && git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
+source "${ZINIT_HOME}/zinit.zsh"
+autoload -Uz _zinit
+(( ${+_comps} )) && _comps[zinit]=_zinit
 
 # Use ZSH Plugins
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
-source <(antibody init)
-antibody bundle < "$DOTFILES/antibody_plugins"
-
+source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
+zinit load zdharma-continuum/history-search-multi-word
+zinit light spaceship-prompt/spaceship-prompt
+zinit light "spaceship-prompt/spaceship-vi-mode"
+zinit light z-shell/F-Sy-H
+zinit load zdharma-continuum/history-search-multi-word
 
 # Change Key Bindings
 bindkey '^[[A' history-substring-search-up

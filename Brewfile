@@ -66,6 +66,6 @@ cask "unity-hub"
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
-mas "KakaoTalk", id: 869223134
+mas "GarageBand", id: 682658836
 mas "Magnet", id: 441258766
 mas "Xcode", id: 497799835
