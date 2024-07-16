@@ -28,7 +28,7 @@ Deactivate licenses:
 6. Restart computer.
 7. Setup up Dropbox (use multifactor authentication!) and allow files to sync before setting up dependent applications. Alfred settings are stored here. Mackup depends on this as well (and thus so do Terminal and VS Code).
 8. Run `mackup restore`. Consider doing a `mackup restore --dry-run --verbose` first.
-9. [Generate ssh key](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh), add to GitHub, and switch remotes.
+9. [Generate ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent), add to GitHub, and switch remotes.
 
 ```zsh
     # Generate SSH key in default location (~/.ssh/config)
@@ -52,7 +52,7 @@ Deactivate licenses:
     pbcopy < ~/.ssh/id_ed25519.pub
 
     # Test SSH connection, then verify fingerprint and username
-    # https://help.github.com/en/github/authenticating-to-github/testing-your-ssh-connection
+    # https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection
     ssh -T git@github.com
 
     # Switch from HTTPS to SSH
