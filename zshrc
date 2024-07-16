@@ -24,8 +24,8 @@ setopt globDots
 
 
 # Create Aliases
-alias ls='exa -laFh --git'
-alias exa='exa -laFh --git'
+alias ls='eza -lah --git'
+alias eza='eza -lah --git'
 alias man=batman
 alias trail='<<<${(F)path}'
 alias ftrail='<<<${(F)fpath}'
