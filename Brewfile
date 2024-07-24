@@ -17,8 +17,6 @@ brew "jupyterlab"
 brew "less"
 # Keep your Mac's application settings in sync
 brew "mackup"
-# Drop-in replacement for MySQL
-brew "mariadb"
 # Mac App Store command-line interface
 brew "mas"
 # Node version management
@@ -39,8 +37,6 @@ brew "zsh-history-substring-search"
 brew "eth-p/software/bat-extras"
 # Application launcher and productivity software
 cask "alfred"
-# Universal database tool and SQL client
-cask "dbeaver-community"
 # Developer platform
 cask "dotnet-sdk"
 # Client for the Dropbox cloud storage service
@@ -60,19 +56,11 @@ cask "logseq"
 cask "miniconda"
 # Open source implementation of Microsoft's .NET Framework
 cask "mono-mdk-for-visual-studio"
-# Team communication and collaboration software
-cask "slack"
-# Management tool for Unity
-cask "unity-hub"
 # Open-source code editor
 cask "visual-studio-code"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
 mas "카카오톡", id: 869223134
