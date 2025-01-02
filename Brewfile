@@ -35,6 +35,8 @@ brew "zsh-history-substring-search"
 brew "eth-p/software/bat-extras"
 # Application launcher and productivity software
 cask "alfred"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
 # Developer platform
 cask "dotnet-sdk"
 # Client for the Dropbox cloud storage service
@@ -56,6 +58,8 @@ cask "miniconda"
 cask "mono-mdk-for-visual-studio"
 # Open-source code editor
 cask "visual-studio-code"
+# Gecko based web browser
+cask "zen-browser"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "GarageBand", id: 682658836
