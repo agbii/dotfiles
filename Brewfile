@@ -19,8 +19,6 @@ brew "less"
 brew "mackup"
 # Mac App Store command-line interface
 brew "mas"
-# Node version management
-brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
 # Zsh prompt for Astronauts
